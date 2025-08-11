@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_BASE || "https://notes-keeper-7a8e.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
